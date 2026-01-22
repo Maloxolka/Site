@@ -62,12 +62,12 @@ const App: React.FC = () => {
         {
           text: "Бинтование культи голени выполняется эластичным бинтом средней растяжимости. Давление должно быть плотным внизу и ослабевать кверху.",
           warning: "Если культя посинела — немедленно снимите бинт и перебинтуйте слабее.",
-          image: "https://vash-protez.ru/wp-content/uploads/2019/11/bintovanie-kul-ti-goleni.jpg"
+          image: 'content/golen.jpg'
         },
         {
           text: "Для бедра используется 'восьмиобразная' техника. Важно захватывать область таза, чтобы бинт не сползал.",
           warning: "Избегайте складок бинта, они могут натереть кожу и вызвать воспаление.",
-          image: "https://protez-shkola.ru/wp-content/uploads/2021/01/bintovanie-bedra.jpg"
+          image: 'content/bedro.jpg'
         }
       ]
     },
@@ -79,7 +79,7 @@ const App: React.FC = () => {
         { name: "Положение на животе", desc: "Лежите на животе 2-3 раза в день по 20 минут. Это растягивает мышцы передней поверхности бедра." },
         { name: "Активные движения", desc: "Постоянно делайте махи культей во всех доступных направлениях, преодолевая легкое сопротивление." }
       ],
-      image: "https://images.unsplash.com/photo-1597452485669-2c7bb5fef90d?auto=format&fit=crop&q=80&w=800"
+      image: 'content/profil.jpg'
     },
     phantom: {
       title: "Фантомные боли",
@@ -88,13 +88,13 @@ const App: React.FC = () => {
         { name: "Зеркальная терапия", desc: "Смотрите в зеркало на здоровую ногу — мозг 'видит' две ноги, и боль часто уходит." },
         { name: "Сенсорная стимуляция", desc: "Растирайте культю махровым полотенцем или мягкой щеткой." }
       ],
-      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800"
+      image: 'content/fantom.jpg'
     },
     bed_exercises: {
       title: "Упражнения в постели",
       text: "Первые шаги к протезу начинаются в палате. Важно укрепить мышцы культи и спины.",
       list: ["Напряжение мышц бедра и ягодиц", "Подъемы таза", "Упражнения с эластичной лентой", "Дыхательная гимнастика"],
-      image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800"
+      image: 'content/vkrovati.jpg'
     },
     shaping: {
       title: "Формирование формы культи",
@@ -103,19 +103,19 @@ const App: React.FC = () => {
         { name: "Компрессионный чехол", desc: "Специальный трикотаж, который носится 23 часа в сутки." },
         { name: "Силиконовый лайнер", desc: "Помогает не только формировать культю, но и снижает чувствительность рубца." }
       ],
-      image: "https://images.unsplash.com/photo-1583454110551-21f2fa2ec617?auto=format&fit=crop&q=80&w=800"
+      image: 'content/formyrow.jpg'
     },
     desensitization: {
       title: "Десенсибилизация кожи",
       text: "Кожа культи должна привыкнуть к постоянному контакту с гильзой протеза.",
       list: ["Похлопывания ладонью", "Растирание материалами разной жесткости", "Вибромассаж", "Воздушные ванны"],
-      image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&q=80&w=800"
+      image: 'content/dese.jpg'
     },
     prep_exercises: {
       title: "Общефизическая подготовка",
       text: "Ходьба на протезе требует больше энергии, чем обычная ходьба. Нужно укрепить всё тело.",
       list: ["Укрепление мышц пресса и спины", "Тренировка рук для опоры на брусья", "Равновесие на здоровой ноге"],
-      image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=800"
+      image: 'content/gimnas.jpg'
     },
     psychology: {
       title: "Психологическая адаптация",
@@ -124,13 +124,13 @@ const App: React.FC = () => {
         { name: "Общение с равными", desc: "Встречи с людьми, которые уже успешно пользуются протезами." },
         { name: "Постановка целей", desc: "Двигайтесь маленькими шагами: от первого вставания до похода в магазин." }
       ],
-      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=800"
+      image: 'content/psiho.jpg'
     },
     wearing: {
       title: "Надевание протеза",
       text: "Правильное положение культи в гильзе — залог отсутствия натертостей.",
       steps: ["Проверка чистоты кожи", "Надевание лайнера без воздуха", "Использование спрея-смазки", "Проверка замкового механизма"],
-      image: "https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?auto=format&fit=crop&q=80&w=800"
+      image: 'content/obuch.jpg'
     },
     balance: {
       title: "Равновесие и баланс",
@@ -139,20 +139,20 @@ const App: React.FC = () => {
         { name: "Перенос веса", desc: "Покачивания влево-вправо, стоя в брусьях." },
         { name: "Стояние на протезе", desc: "Постепенное уменьшение опоры на здоровую ногу." }
       ],
-      image: "https://images.unsplash.com/photo-1594404322491-6273c88d15e2?auto=format&fit=crop&q=80&w=800"
+      image: 'content/rovnovesie.png'
     },
     gait: {
       title: "Отработка фаз шага",
       text: "Биомеханика шага на протезе отличается от обычной. Мы учим работать тазом и коленным узлом.",
       steps: ["Наступание на пятку", "Перекат через всю стопу", "Толчок носком", "Мах протезом"],
-      image: "https://images.unsplash.com/photo-1434493907317-a46b5bc78344?auto=format&fit=crop&q=80&w=800"
+      image: 'content/fazishaga.jpg'
     },
     stairs: {
       title: "Лестницы и неровности",
       text: "Уверенное движение в городской среде.",
       rule: "Вверх — со здоровой ноги. Вниз — с протеза.",
       details: "Это правило позволяет всегда иметь надежную опору при смене высоты.",
-      image: "https://images.unsplash.com/photo-1590487988256-9ed24133863e?auto=format&fit=crop&q=80&w=800"
+      image: 'content/nerown.jpg'
     }
   };
 

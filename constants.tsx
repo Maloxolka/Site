@@ -32,7 +32,7 @@ export const SERVICES: EnhancedServiceItem[] = [
     title: 'Протезирование рук',
     description: 'Изготовление функциональных и косметических протезов. Мы создаем изделия, которые помогают вернуть эстетику и возможности самообслуживания.',
     icon: 'fa-hand',
-    image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800',
+    image: 'content/hands.jpg',
     types: [
       {
         name: 'Косметические',
@@ -61,7 +61,7 @@ export const SERVICES: EnhancedServiceItem[] = [
     title: 'Протезирование ног',
     description: 'Индивидуальные модульные протезы для любого уровня ампутации. Профессиональный подбор стоп и коленных узлов.',
     icon: 'fa-person-walking-boot',
-    image: 'https://images.unsplash.com/photo-1597764619434-227748701952?auto=format&fit=crop&q=80&w=800',
+    image: 'content/legs.jpg',
     types: [
       {
         name: 'Повседневные модульные',
@@ -85,14 +85,14 @@ export const SERVICES: EnhancedServiceItem[] = [
     title: 'Школа ходьбы',
     description: 'Курс реабилитации для владельцев протезов ног. Обучаем правильному распределению нагрузки и технике шага.',
     icon: 'fa-walking',
-    image: 'https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=800'
+    image: 'content/peoples.png'
   },
   {
     id: 'ortho',
     title: 'Ортезирование',
     description: 'Изготовление индивидуальных ортезов, аппаратов и корсетов для восстановления функций движения.',
     icon: 'fa-bone',
-    image: 'https://images.unsplash.com/photo-1594382582103-e2e09c857754?auto=format&fit=crop&q=80&w=800',
+    image: 'content/torso.jpg',
     types: [
       {
         name: 'Аппараты и тутторы',
